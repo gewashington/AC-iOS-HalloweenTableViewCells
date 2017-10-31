@@ -14,7 +14,7 @@ Main text: "witchForest"
 
 Subtitle text: "Tags: Witch, Moon, Forest"
 
-![StepOneImage]()
+![StepOneImage](https://raw.githubusercontent.com/C4Q/AC-iOS-HalloweenTableViewCells/master/stepOne.png)
 
 ### Step 2:
 
