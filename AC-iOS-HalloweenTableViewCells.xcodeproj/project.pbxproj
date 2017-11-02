@@ -14,6 +14,10 @@
 		54FB4CC71FA8296F002141C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FB4CC51FA8296F002141C7 /* LaunchScreen.storyboard */; };
 		54FB4CCF1FA82985002141C7 /* HalloweenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB4CCE1FA82985002141C7 /* HalloweenImage.swift */; };
 		54FB4CD11FA82C44002141C7 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FB4CD01FA82C44002141C7 /* ImageData.swift */; };
+		81A6BFF91FA911F900C507AA /* HalloweenTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFF81FA911F900C507AA /* HalloweenTableModel.swift */; };
+		81A6BFFB1FA9168E00C507AA /* HalloweenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFFA1FA9168E00C507AA /* HalloweenData.swift */; };
+		81A6BFFD1FA918B500C507AA /* HalloweenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFFC1FA918B500C507AA /* HalloweenTableViewCell.swift */; };
+		81A6BFFF1FA91FD900C507AA /* HalloweenImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A6BFFE1FA91FD900C507AA /* HalloweenImageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		54FB4CC81FA8296F002141C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54FB4CCE1FA82985002141C7 /* HalloweenImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenImage.swift; sourceTree = "<group>"; };
 		54FB4CD01FA82C44002141C7 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		81A6BFF81FA911F900C507AA /* HalloweenTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenTableModel.swift; sourceTree = "<group>"; };
+		81A6BFFA1FA9168E00C507AA /* HalloweenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenData.swift; sourceTree = "<group>"; };
+		81A6BFFC1FA918B500C507AA /* HalloweenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenTableViewCell.swift; sourceTree = "<group>"; };
+		81A6BFFE1FA91FD900C507AA /* HalloweenImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenImageTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,11 @@
 				54FB4CD21FA8325E002141C7 /* Models */,
 				54FB4CD31FA83288002141C7 /* Supporting Files */,
 				54FB4CBE1FA8296F002141C7 /* ViewController.swift */,
+				81A6BFFE1FA91FD900C507AA /* HalloweenImageTableViewCell.swift */,
+				81A6BFF81FA911F900C507AA /* HalloweenTableModel.swift */,
+				81A6BFFA1FA9168E00C507AA /* HalloweenData.swift */,
+				81A6BFFC1FA918B500C507AA /* HalloweenTableViewCell.swift */,
+				81A6C0001FA9239300C507AA /* ExercisePart1 */,
 				54FB4CC01FA8296F002141C7 /* Main.storyboard */,
 				54FB4CC31FA8296F002141C7 /* Assets.xcassets */,
 				54FB4CC81FA8296F002141C7 /* Info.plist */,
@@ -84,6 +97,13 @@
 				54FB4CC51FA8296F002141C7 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81A6C0001FA9239300C507AA /* ExercisePart1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ExercisePart1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,8 +180,12 @@
 			files = (
 				54FB4CBF1FA8296F002141C7 /* ViewController.swift in Sources */,
 				54FB4CCF1FA82985002141C7 /* HalloweenImage.swift in Sources */,
+				81A6BFFD1FA918B500C507AA /* HalloweenTableViewCell.swift in Sources */,
+				81A6BFFF1FA91FD900C507AA /* HalloweenImageTableViewCell.swift in Sources */,
 				54FB4CBD1FA8296F002141C7 /* AppDelegate.swift in Sources */,
+				81A6BFF91FA911F900C507AA /* HalloweenTableModel.swift in Sources */,
 				54FB4CD11FA82C44002141C7 /* ImageData.swift in Sources */,
+				81A6BFFB1FA9168E00C507AA /* HalloweenData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
